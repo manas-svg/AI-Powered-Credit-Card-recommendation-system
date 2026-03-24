@@ -1,6 +1,3 @@
-# AI-Powered-Credit-Card-recommendation-system
-Developed an AI-powered credit card recommendation system that suggests the most suitable credit cards to users based on their financial profile and spending preferences. The system combines machine learning, NLP-based feature understanding, and LLM-driven explanations to deliver personalized and explainable recommendations.
-
 
 ---
 
@@ -41,6 +38,54 @@ creditCardRecommendationSystem/
  ┣ requirements.txt
  ┗ sodapdf-converted.pdf
 ```
+
+---
+
+## Live Demo & Repository
+
+- **Video link:** [(https://vimeo.com/1094748093/63f14e9da2?share=copy)](https://vimeo.com/1094748093/63f14e9da2?share=copy)
+- **Live App:** [https://creditcardrecommendationsystem-project.streamlit.app/](https://creditcardrecommendationsystem-project.streamlit.app/)
+- **GitHub:** [https://github.com/alpha2lucifer/creditCardRecommendationSystem](https://github.com/alpha2lucifer/creditCardRecommendationSystem)
+<div align="center">
+  <img src="Untitled video - Made with Clipchamp (7).gif" height="500" />
+</div>
+---
+
+## Setup Instructions
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/alpha2lucifer/creditCardRecommendationSystem.git
+    ```
+
+2. **Navigate to the project directory:**
+    ```bash
+    cd creditCardRecommendationSystem
+    ```
+
+3. **(Optional) Create and activate a virtual environment:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+4. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. **Set up Hugging Face API token:**
+    - Create a `.env` file in the root directory and add:
+      ```
+      HF_TOKEN=your_huggingface_token_here
+      ```
+
+6. **Run the Streamlit app:**
+    ```bash
+    streamlit run app.py
+    ```
+
+7. **Open your browser and go to** `http://localhost:8501` **to use the app.**
 
 ---
 
@@ -103,3 +148,20 @@ creditCardRecommendationSystem/
 
 ---
 
+## Contributing
+
+Contributions are welcome! Please open issues or pull requests for improvements.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Contact
+
+For questions or contributions, please open an issue or pull request on the [GitHub repository](https://github.com/alpha2lucifer/creditCardRecommendationSystem).
+
+---
